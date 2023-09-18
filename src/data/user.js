@@ -1,15 +1,15 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
+		title: "Inzamam Virk",
 		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		email: "inzamamvirk00@gmail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
 		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
+		github: "https://github.com/inzamam-virk",
+		linkedin: "https://www.linkedin.com/in/inzamam-virk/",
 		instagram: "https://instagram.com/",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://facebook.com/",
