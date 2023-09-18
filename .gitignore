@@ -1,0 +1,43 @@
+# Dependency directories
+/node_modules
+
+# Build output
+/build
+/dist
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor/IDE specific files
+.vscode
+.idea
+*.iml
+*.swp
+*.swo
+
+# macOS specific files
+.DS_Store
+
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Package lock files
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# Testing
+/coverage
+
+# Miscellaneous
+*.log
+*.tmp
+*.tmp.*
+*.bak
+*.backup
