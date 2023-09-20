@@ -9,6 +9,13 @@
 	padding-bottom: 40px;
 	width: 400px;
 }
+.work-description{
+	position: relative;
+	text-indent: -15px;
+	font-size: 0.9rem;
+	color: #555;
+  }
+  
 
 .work-image {
 	height: 30px;
