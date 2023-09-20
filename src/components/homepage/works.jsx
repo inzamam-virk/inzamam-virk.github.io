@@ -44,7 +44,8 @@ const Works = () => {
 							and container orchestration. Skilled in front end
 							development using advanced React features,
 							including hooks, state management, and
-							performance optimizationu
+							performance optimization.
+							<span className="hidden">hiddenwordhiddenwordhiddenword</span>
 						</div>
 						<div className="work-description">{'\u2023     '}
 							Elevated to Team Lead position for the past
@@ -52,6 +53,7 @@ const Works = () => {
 							functional teams including Development, Design,
 							and Cloud, to drive comprehensive project
 							outcomes.
+							<span className="hidden">hiddenwordhiddenwordhiddenword</span>
 						</div>
 
 					</div>

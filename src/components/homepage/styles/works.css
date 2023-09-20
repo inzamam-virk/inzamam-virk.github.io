@@ -12,10 +12,14 @@
 .work-description{
 	position: relative;
 	text-indent: -15px;
+	text-align: justify;
 	font-size: 0.9rem;
 	color: #555;
   }
-  
+  .hidden {
+	visibility: hidden;
+	font-size: 0;
+  }
 
 .work-image {
 	height: 30px;
