@@ -29,7 +29,7 @@
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"predeploy": "npm run build",
-		"deploy": "rm -rf docs && mv build docs && gh-pages -d docs"
+		"deploy": "rimraf docs && mkdir docs && xcopy build docs /E /I /Y && gh-pages -d docs"
 	},
 	"eslintConfig": {
 		"extends": [
@@ -52,5 +52,8 @@
 	"prettier": {
 		"useTabs": true,
 		"tabWidth": 4
+	},
+	"devDependencies": {
+		"rimraf": "^5.0.1"
 	}
 }
