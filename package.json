@@ -2,11 +2,7 @@
 	"name": "reactfolio",
 	"version": "1.1.0",
 	"description": "Personal portfolio template built using Reactjs",
-	"author": {
-		"name": "Tharindu N. Madhusanka",
-		"email": "mail@tharindu.dev",
-		"url": "https://tharindu.dev"
-	},
+	"homepage": "http://inzamam-virk.github.io/repository",
 	"license": "MIT",
 	"private": true,
 	"dependencies": {
@@ -31,7 +27,9 @@
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
-		"eject": "react-scripts eject"
+		"eject": "react-scripts eject",
+		"predeploy": "npm run build",
+		"deploy": "rm -rf docs && mv build docs && gh-pages -d docs"
 	},
 	"eslintConfig": {
 		"extends": [
