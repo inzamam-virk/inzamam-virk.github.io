@@ -2,7 +2,7 @@
 	"name": "reactfolio",
 	"version": "1.1.0",
 	"description": "Personal portfolio template built using Reactjs",
-	"homepage": "http://inzamam-virk.github.io/repository",
+	"homepage": "http://inzamam-virk.github.io",
 	"license": "MIT",
 	"private": true,
 	"dependencies": {
