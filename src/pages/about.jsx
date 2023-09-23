@@ -44,9 +44,16 @@ const About = () => {
 								<div className="title about-title">
 									{INFO.about.title}
 								</div>
+								<div className="location about-location" style={{marginTop:"2%"  , color:" var(--secondary-color)"}}>
+									{INFO.about.location}
+								</div>
+								
 
 								<div className="subtitle about-subtitle">
 									{INFO.about.description}
+								</div>
+								<div className="connect about-connect">
+									{INFO.about.connect}
 								</div>
 							</div>
 

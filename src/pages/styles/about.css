@@ -37,6 +37,12 @@
 	width: 80% !important;
 }
 
+.about-connect {
+	margin-top: 5%;
+	color:  var(--secondary-color);
+	width: 80% !important;
+}
+
 .about-left-side {
 	display: flex;
 	flex-direction: column;

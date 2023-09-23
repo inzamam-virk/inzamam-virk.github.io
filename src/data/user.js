@@ -10,7 +10,7 @@ const INFO = {
 		twitter: "https://x.com/iinzamamvirk?t=HxpP-EQ_TnXS3DwlJbpCuQ&s=09",
 		github: "https://github.com/inzamam-virk",
 		linkedin: "https://www.linkedin.com/in/inzamam-virk/",
-		instagram: "https://instagram.com/",
+		instagram: "https://www.instagram.com/iinzamam_virk",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://m.facebook.com/profile.php/?id=100009709484916",
 	},
@@ -22,13 +22,15 @@ const INFO = {
 	},
 
 	about: {
-		title: "I’m Inzamam Virk from Pakistan, working full time to define future.",
+		title: "I’m Inzamam Virk.",
+		location: "From Pakistan.",
 		description:
 			"As a dynamic Full Stack Software Engineer with a focus on the MERN stack, I'm not just versatile in my tech choices—I actively embrace them! Always open to collaborate with others as its a great way to learn and grow, and I'm always open to new ideas and feedback.",
+		connect: "I also like sharing content related to the stuff that I have learned over in the world of tech so it can help other people of the Tech Community. Feel free to reach me on social media."
 	},
 
 	articles: {
-		title: "Personal Articles to share knowledge ",
+		title: "Personal Articles",
 		description:
 			"Chronological collection of my long-form thoughts on programming, development, leadership, product design, and more.",
 	},
