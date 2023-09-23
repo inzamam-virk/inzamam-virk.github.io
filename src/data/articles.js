@@ -5,7 +5,7 @@ function article_1() {
 		date: "23 Sep 2023",
 		title: "Why to learn javascript",
 		description:
-			"JavaScript’s popularity stems from a combination of its inherent design characteristics, capabilities, and the ecosystem that has evolved around it",
+			"JavaScript’s popularity stems from a combination of its inherent design characteristics, capabilities, and the ecosystem that has evolved around it.",
 		keywords: [
 			"Why to learn javascript",
 			"Inzamam",
