@@ -1,0 +1,71 @@
+.sidebar-card {
+    width: 20%;
+    /* height: 015; */
+    border: 1px solid #ccc;
+    position: absolute;
+    right: 15%;
+    top: 10%;
+    border-radius: 10px; /* Makes corners round */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: for a bit of shadow */
+    padding: 0.6%;
+    overflow: hidden; /* Hide overflow to ensure that only the child scroll-container scrolls */
+    transition: all 0.3s ease-in-out;
+    background-color: #ffffff;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.1%;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    border-top-left-radius: 10px;
+    /* Matches parent's rounded corner */
+    border-top-right-radius: 10px;
+    cursor: pointer; /* Make the entire header clickable */
+}
+
+/* New class for the scrollable container */
+.scroll-container {
+    max-height: 260px; /* Adjusted for the header height */
+    overflow-y: auto;
+}
+
+.heading-list {
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-icon {
+    cursor: pointer;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out; /* Adjusted for smoother rotation */
+}
+
+/* Style the bullet point */
+.bullet-point {
+    display: inline-block;
+    margin-right: 10px;
+    color: #333; /* Or any other color that you prefer */
+}
+
+.heading-list::-webkit-scrollbar {
+    display: none;
+}
+
+.heading-list li {
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 5px 0;
+
+}
+.content-section {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start ; /* Override if flexbox is used */
+}
+
+
+ 

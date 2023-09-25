@@ -1,0 +1,26 @@
+[
+    {
+        "heading": "Introduction to React",
+        "description": "Comming soon, be connected!"
+    },
+    {
+        "heading": "ECMAScript 2015",
+        "description": "Coming soon, be connected!"
+    },
+    {
+        "heading": "JSX-An introduction",
+        "description": "Comming soon, be connected!"
+    },
+    {
+        "heading": "Rendering in React",
+        "description": "Coming soon, be connected!"
+    },
+    {
+        "heading": "State and Lifecycle Methods",
+        "description": "Comming soon, be connected!"
+    },
+    {
+        "heading": "Event Handling",
+        "description": "Coming soon, be connected!"
+    }
+]

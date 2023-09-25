@@ -1,4 +1,5 @@
 import React from "react";
+import Content from "./articles/ContentPage";
 
 function article_1() {
 	return {
@@ -25,16 +26,7 @@ function article_1() {
 				}
 				`,
 		body: (
-			<React.Fragment>
-				<div className="article-content">
-					<div className="paragraph">Coming soon! Be connected!</div>
-					{/* <img
-						src="https://picsum.photos/200/300"
-						alt="random"
-						className="randImage"
-					/> */}
-				</div>
-			</React.Fragment>
+			<Content/>
 		),
 	};
 }
