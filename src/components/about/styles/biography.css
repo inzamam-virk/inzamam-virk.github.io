@@ -1,0 +1,46 @@
+@import "../../../data/styles.css";
+
+.biography{
+    display: flex;
+    flex-direction: row;
+}
+
+.summary {
+    flex: 60%;
+    /* Take up 50% of the width */
+    padding-right: 20px;
+    /* Optional: Add some spacing between the two divs */
+    display: flex;
+    flex-direction: column;
+}
+
+
+.summary-details {
+    flex-grow: 1;
+}
+
+.about-image-wrapper {
+    display: inline-block;
+    overflow: hidden;
+    width: 90%;
+    border-radius: 10%;
+    transform: rotate(0.5deg);
+}
+
+.about-image-container {
+    flex: 40%;
+    /* Take up 50% of the width */
+    padding-top: 7%;
+    padding-left: 10%;
+    /* Optional: Add some spacing between the two divs */
+}
+
+.about-image-wrapper img {
+    display: block;
+    width: 100%;
+}
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 700px) {
+
+}

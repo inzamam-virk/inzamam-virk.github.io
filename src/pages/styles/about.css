@@ -15,22 +15,31 @@
 
 .about-container {
 	display: flex;
-	flex-direction: column;
-	height: 100%;
+	justify-content: center;
+	align-items: center;
 	margin: 0;
 	padding-top: 120px;
 }
 
 .about-main {
 	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-.about-right-side {
+.center-container {
+	text-align: center;
+	/* Center the content horizontally */
+}
+
+.biography {
 	flex-basis: 900px;
 }
 
 .about-title {
-	width: 100% !important;
+	align-items: center;
+	margin-bottom: 20px;
+
 }
 
 .about-subtitle {
@@ -49,22 +58,6 @@
 	flex-basis: 300px;
 }
 
-.about-image-container {
-	width: 370px;
-}
-
-.about-image-wrapper {
-	display: inline-block;
-	overflow: hidden;
-	width: 100%;
-	border-radius: 10%;
-	transform: rotate(3deg);
-}
-
-.about-image-wrapper img {
-	display: block;
-	width: 100%;
-}
 
 .about-socials {
 	padding-top: 50px;
@@ -93,7 +86,7 @@
 		order: 1;
 	}
 
-	.about-right-side {
+	.biography {
 		flex-basis: 100%;
 		order: 2;
 	}

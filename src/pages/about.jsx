@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet";
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
-import Socials from "../components/about/socials";
+import Biography from "../components/about/biography";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -40,41 +40,12 @@ const About = () => {
 
 					<div className="about-container">
 						<div className="about-main">
-							<div className="about-right-side">
-								<div className="title about-title">
-									{INFO.about.title}
-								</div>
-								<div className="location about-location" style={{marginTop:"2%"  , color:" var(--secondary-color)"}}>
-									{INFO.about.location}
-								</div>
-								
-
-								<div className="subtitle about-subtitle">
-									{INFO.about.description}
-								</div>
-								<div className="connect about-connect">
-									{INFO.about.connect}
-								</div>
+							<div className="title about-title">
+								{INFO.about.title}
 							</div>
-
-							<div className="about-left-side">
-								<div className="about-image-container">
-									<div className="about-image-wrapper">
-										<img
-											src="about.jpg"
-											alt="about"
-											className="about-image"
-										/>
-									</div>
-								</div>
-
-								<div className="about-socials">
-									<Socials />
-								</div>
+							<div className="biograpgy">
+								<Biography/>
 							</div>
-						</div>
-						<div className="about-socials-mobile">
-							<Socials />
 						</div>
 					</div>
 					<div className="page-footer">
