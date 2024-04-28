@@ -1,0 +1,26 @@
+.about-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box-icon {
+    flex-basis: calc(20% - 20px);
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Adjust styles for small screens */
+@media screen and (max-width: 700px) {
+    .box-icon {
+        flex-basis: calc(40% - 20px);
+    }
+}
+
+/* Adjust styles for extra small screens */
+@media screen and (max-width: 350px) {
+    .box-icon {
+        flex-basis: calc(100% - 20px);
+    }
+}

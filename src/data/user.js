@@ -27,6 +27,7 @@ const INFO = {
 		description:
 			"As a dynamic Full Stack Software Engineer with a focus on the MERN stack, I'm not just versatile in my tech choices—I actively embrace them! Always open to collaborate with others as its a great way to learn and grow, and I'm always open to new ideas and feedback.",
 		connect: "I also like sharing content related to the stuff that I have learned over in the world of tech so it can help other people of the Tech Community. Feel free to reach me on social media.",
+		skill:"Skills",
 		summary:"Hello, I'm Inzamam Virk, a Full Stack Engineer with proficiency in backend. I am specialized in building and managing top notch, scalable, high performance applications using java based technologies, JavaScript React.js, Node.js, and aws technologies"
 	},
 

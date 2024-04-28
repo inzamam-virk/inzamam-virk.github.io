@@ -10,6 +10,8 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/about.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Skills from "../components/about/skills";
 
 const About = () => {
 	useEffect(() => {
@@ -40,14 +42,24 @@ const About = () => {
 
 					<div className="about-container">
 						<div className="about-main">
-							<div className="title about-title">
+							<div className="title about-title" >
 								{INFO.about.title}
 							</div>
-							<div className="biograpgy">
+							<div className="biography">
 								<Biography/>
 							</div>
 						</div>
 					</div>
+
+					<div className="about-skills-title"  style={{font: 'var(--primary-font)', marginTop:'7%',  color: 'var(--primary-color)', fontWeight: 'bold' }}>
+						<h2>Skills:</h2>
+					</div>
+
+					<div className="about-skills">
+						<Skills/>
+					</div>
+
+
 					<div className="page-footer">
 						<Footer />
 					</div>
