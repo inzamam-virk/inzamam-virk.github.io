@@ -33,6 +33,32 @@
 
 }
 
+.about-skills-title{
+	display: flex;
+	font-family: 'Times New Roman', Times, serif;
+	color: 'var(--primary-color)';
+	font-weight: 'bolder';
+	font-size: xx-large;
+	justify-content: center;
+}
+
+.about-experience-title{
+	display: flex;
+	font-family: 'Times New Roman', Times, serif;
+	color: 'var(--primary-color)';
+	font-weight: 'bolder';
+	font-size: xx-large;
+	justify-content: center;
+}
+.about-education-title {
+	display: flex;
+	font-family: 'Times New Roman', Times, serif;
+	color: 'var(--primary-color)';
+	font-weight: 'bolder';
+	font-size: xx-large;
+	justify-content: center;
+}
+
 @media (max-width: 1024px) {
 	.about-logo {
 		z-index: 100;
@@ -48,6 +74,9 @@
 
 	.about-socials {
 		display: none;
+	}
+	.page-content{
+		overflow-x: hidden;
 	}
 
 }

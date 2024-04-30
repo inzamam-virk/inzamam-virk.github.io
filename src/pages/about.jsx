@@ -10,8 +10,9 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/about.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Skills from "../components/about/skills";
+import Experience from "../components/about/experience";
+import Education from "../components/about/education";
 
 const About = () => {
 	useEffect(() => {
@@ -51,15 +52,29 @@ const About = () => {
 						</div>
 					</div>
 
-					<div className="about-skills-title"  style={{font: 'var(--primary-font)', marginTop:'7%',  color: 'var(--primary-color)', fontWeight: 'bold' }}>
-						<h2>Skills:</h2>
+					<div className="about-skills-title"  style={{marginTop:'7%'}}>
+						<h2>Skills</h2>
 					</div>
 
 					<div className="about-skills">
 						<Skills/>
 					</div>
 
+					<div className="about-experience-title"  style={{marginTop:'7%'}}>
+						<h2>Experience</h2>
+					</div>
+					<div>
+						<Experience/>
+					</div>
+					<div className="about-education-title"  style={{marginTop:'7%'}}>
+						<h2>Education</h2>
+					</div>
+					<div>
+						<Education/>
+					</div>
+					<div style={{padding:"10%"}}>
 
+					</div>
 					<div className="page-footer">
 						<Footer />
 					</div>

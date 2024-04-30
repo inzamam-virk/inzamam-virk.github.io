@@ -1,0 +1,65 @@
+.exp-date-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.experience-date {
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 12%;
+}
+
+.experience-title {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    font-weight: bolder;
+    font-size: large;
+    padding-left: 9%;
+}
+
+.experience-title p1 {
+    margin: 0;
+}
+
+.experience-details {
+    display: block;
+    clear: both;
+    padding-left: 38%;
+    padding-right: 15%;
+    text-align: justify;
+    /* This ensures the div starts below any floating elements */
+}
+
+@media (max-width: 700px) {
+    .exp-date-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .experience-date{
+        align-self: flex-end;
+        width: 100%;
+        order: 2;
+        text-align: center;
+    }
+    .experience-date p {
+        margin: 2%;
+    }
+    .experience-title {
+        align-self: flex-start;
+        width: 100%;
+        order: 1;
+        text-align: center;
+        /* Make both divs take full width */
+    }
+    .experience-details {
+        width: auto;
+        /* Set width to 100% */
+        display: flex;
+        padding-left: 10%;
+    }
+}
