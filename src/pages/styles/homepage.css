@@ -29,6 +29,7 @@
 
 .homepage-subtitle {
 	width: 85% !important;
+	text-align: justify;
 }
 
 .homepage-first-area-right-side {
@@ -51,23 +52,35 @@
 	width: 100%;
 }
 
-.homepage-socials {
-	display: flex;
-	justify-content: left;
-	align-items: center;
-	padding-top: 30px;
+.resume-button {
+	background-color: rgb(53, 53, 53);
+	color: white;
+	text-decoration: dashed;
+	padding: 5px 30px 5px 10px;
+	border-radius: 5px;
+	display: inline-block;
+	border: 2px solid transparent;
+	position: relative;
 }
 
-.homepage-social-icon {
-	padding-right: 20px;
-	font-size: 25px;
-	transition: color 0.2s ease-in-out;
-	color: var(--secondary-color);
+.resume-button:hover {
+	background-color: #ffffff;
+	color: black;
+	border-color: black;
+}
+.resume-img {
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	transform: translateY(-50%);
+	filter: invert(100%);
+}
+.resume-button:hover .resume-img {
+	filter: none;
 }
 
-.homepage-social-icon:hover {
-	color: var(--primary-color);
-}
 
 .homepage-after-title {
 	display: flex;
@@ -114,6 +127,7 @@
 
 	.homepage-subtitle {
 		width: 100% !important;
+		text-align: justify;
 		margin-top: 10px;
 		order: 3;
 	}

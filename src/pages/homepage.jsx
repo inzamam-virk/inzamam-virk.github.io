@@ -57,6 +57,10 @@ const Homepage = () => {
 
 	const currentSEO = SEO.find((item) => item.page === "home");
 
+	const resume_link = "https://drive.google.com/file/d/1ZI9stunymJNOuCk5jFxG2NPyAm1W9C3V/view?usp=sharing";
+	const cover_letter_link = "https://drive.google.com/file/d/1jl7fjzY3Hcjz3rWzne_qCBnarc-d6lFd/view?usp=sharing";
+
+
 	const logoStyle = {
 		display: "flex",
 		position: stayLogo ? "fixed" : "relative",
@@ -95,7 +99,16 @@ const Homepage = () => {
 								</div>
 
 								<div className="subtitle homepage-subtitle">
-									{INFO.homepage.description}
+									<p>
+										Passionate Software Engineer with 1+ years of experience in developing web applications and backend systems. Skilled at writing clear, concise
+										code that is easy to maintain and troubleshoot. Experienced in working with both small and large teams across multiple projects. Able to work
+										independently in remote locations or in office environments as mandated by the company.
+									</p>
+									<p>
+										Throughout the course of my professional career I had opportunity to contribute in teams with different technology stacks making their products
+										usable for hundreds of thousands of users worldwide. Looking forward to take my skills to the next level and contributing to the success of my
+										employer.
+									</p>
 								</div>
 							</div>
 
@@ -112,71 +125,15 @@ const Homepage = () => {
 							</div>
 						</div>
 
-						<div className="homepage-socials">
-							<a
-								href={INFO.socials.twitter}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faTwitter}
-									className="homepage-social-icon"
-								/>
+						<div className="resume" style={{marginTop:"3%", marginBottom:"8%"}}>
+							<a target="_blank" class="resume-button" download="" href={resume_link}>
+								Resume
+								<img className="resume-img" src="./resume-svg.svg" alt="Download Icon"/>
 							</a>
-							<a
-								href={INFO.socials.github}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faGithub}
-									className="homepage-social-icon"
-								/>
+							<a target="_blank" class="resume-button" download="" href={cover_letter_link} style={{marginLeft:"30%"}}>
+								Cover Letter
+								<img className="resume-img" src="./resume-svg.svg" alt="Download Icon"/>
 							</a>
-							<a
-								href={INFO.socials.facebook}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faFacebook}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={`mailto:${INFO.main.email}`}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faMailBulk}
-									className="homepage-social-icon"
-								/>
-							</a>
-						</div>
-						
-
-
-
-
-						<div className="homepage-after-title">
-
-							<div className="homepage-articles">
-								{myArticles.map((article, index) => (
-									<div
-										className="homepage-article"
-										key={(index + 1).toString()}
-									>
-										<Article
-											key={(index + 1).toString()}
-											date={article().date}
-											title={article().title}
-											description={article().description}
-											link={"/article/" + (index + 1)}
-										/>
-									</div>
-								))}
-							</div>
 						</div>
 
 

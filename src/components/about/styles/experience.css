@@ -28,7 +28,6 @@
     padding-left: 38%;
     padding-right: 15%;
     text-align: justify;
-    /* This ensures the div starts below any floating elements */
 }
 
 @media (max-width: 700px) {
