@@ -54,6 +54,7 @@
 		"tabWidth": 4
 	},
 	"devDependencies": {
+		"gh-pages": "^3.2.3",
 		"rimraf": "^5.0.1"
 	}
 }
