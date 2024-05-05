@@ -14,7 +14,9 @@ const Project = (props) => {
 				<Link to={link}>
 					<div className="project-container">
 						<div className="project-logo">
-							<img src={logo} alt="logo" />
+							 {logo.map((logo, index) => (
+								<img key={index} src={logo} alt={`logo-${index}`} className="logoo"/>
+							))}
 						</div>
 						<div className="project-title">{title}</div>
 						<div className="project-description">{description}</div>

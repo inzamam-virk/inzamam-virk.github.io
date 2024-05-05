@@ -27,7 +27,24 @@
 }
 
 .project-logo {
-	width: 30px;
+	display: flex;
+	overflow-x: auto;
+	scrollbar-width: none;
+	/* Hide scrollbar for browsers that support scrollbar-width */
+	-ms-overflow-style: none;
+}
+.project-logo::-webkit-scrollbar {
+	display: none;
+}
+
+.logoo{
+	height: auto;
+	max-width: 15%;
+	margin-right: 10%;
+}
+
+.logoo:last-child {
+	margin-right: 0;
 }
 
 .project-logo img {

@@ -32,56 +32,49 @@ const INFO = {
 	},
 
 	articles: {
-		title: "Personal Articles",
+		title: "Sharing My Learnings",
 		description:
 			"Chronological collection of my long-form thoughts on programming, development, leadership, product design, and more.",
 	},
 
 	projects: [
+		
 		{
-			title: "Project 1",
+			title: "wearegiant.com",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"Plateform for artists to interact with their fans through live-streams, virtual listening parties and other means of interactioins.",
+			logo: ["./tech-icons/java.svg", "./tech-icons/wearegiant.jpg"],
+			linkText: "Link",
+			link: "https://wearegiant.com/",
+		},
+		
+		{
+			title: "apnimanzil.com",
+			description:
+				"A map based Real-estate portal where agencies post their properties to show them to the world.",
+			logo: ["./tech-icons/reactjs.svg", "./tech-icons/nodejs.svg"],
+			linkText: "Link",
+			link: "https://apnimanzil.com/",
 		},
 
 		{
-			title: "Project 2",
+			title: "Human pose estimation for visually impaired people",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				"Develop an android application to help visually impaired people to better understanding their surroundings.",
+			logo: ["./tech-icons/flutter.svg"],
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/inzamam-virk/FYP-Human-Pose-Estimation-for-Blinds-/tree/main",
 		},
 
 		{
-			title: "Project 3",
+			title: "Find Blood Donor",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+				"Android app to show available blood donors on the map so that the needy one can approach to those donors.",
+			logo: ["./tech-icons/flutter.svg", "./tech-icons/firebase.svg"],
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/inzamam-virk/Find-Blood-Donor",
 		},
 
-		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
 	],
 };
 
