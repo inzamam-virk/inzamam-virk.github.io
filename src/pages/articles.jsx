@@ -40,7 +40,7 @@ const Articles = () => {
 					</div>
 
 					<div className="articles-main-container">
-						<div className="title articles-title">
+						<div className="title articles-title" >
 							{INFO.articles.title}
 						</div>
 
@@ -60,7 +60,7 @@ const Articles = () => {
 											date={article().date}
 											title={article().title}
 											description={article().description}
-											link={"/article/" + (index + 1)}
+											link={article().link}
 										/>
 									</div>
 								))}

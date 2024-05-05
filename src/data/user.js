@@ -32,7 +32,7 @@ const INFO = {
 	},
 
 	articles: {
-		title: "Personal Articles",
+		title: "Sharing My Learnings",
 		description:
 			"Chronological collection of my long-form thoughts on programming, development, leadership, product design, and more.",
 	},
