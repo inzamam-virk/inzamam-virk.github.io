@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation} from "react-router-dom";
 import ReactGA from "react-ga4";
 
 import Homepage from "./pages/homepage";
@@ -9,15 +9,18 @@ import Articles from "./pages/articles";
 import Contact from "./pages/contact";
 import Notfound from "./pages/404";
 
-import { TRACKING_ID } from "./data/tracking";
 import "./app.css";
 
+const usePageTracking = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    ReactGA.send({ hitType: "pageview", page: location.pathname + location.search });
+  }, [location]);
+};
+
 function App() {
-	useEffect(() => {
-		if (TRACKING_ID !== "") {
-			ReactGA.initialize(TRACKING_ID);
-		}
-	}, []);
+	usePageTracking();
 
 	return (
 		<div className="App">
