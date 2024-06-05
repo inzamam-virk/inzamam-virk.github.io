@@ -51,7 +51,7 @@ const INFO = {
 		{
 			title: "apnimanzil.com",
 			description:
-				"A map based Real-estate portal where agencies post their properties to show them to the world.",
+				"A map-based real estate portal where agencies can showcase their properties to a global audience.",
 			logo: ["./tech-icons/reactjs.svg", "./tech-icons/nodejs.svg"],
 			linkText: "Link",
 			link: "https://apnimanzil.com/",

@@ -1,12 +1,10 @@
-import React from "react";
-import Content from "./articles/ContentPage";
 
 function article_1() {
 	return {
 		date: "05 May 2024",
-		title: "Running Python script with aws lambdas",
+		title: "Executing Python Scripts with AWS Lambda",
 		description:
-			"Learn how to efficiently handle large record updates using AWS Lambdas",
+			"Discover Efficient Strategies for Handling Large Record Updates with AWS Lambdas",
 		keywords: [
 			"python",
 			"script",
@@ -31,17 +29,17 @@ function article_1() {
 
 function article_2() {
 	return {
-		date: "23 Sep 2023",
-		title: "Why to learn javascript",
+		date: "06 May 2024",
+		title: "Packaging Your AWS Lambda Function",
 		description:
-			"JavaScript’s popularity stems from a combination of its inherent design characteristics, capabilities, and the ecosystem that has evolved around it.",
+			"Guidance on Packaging AWS Lambdas and Addressing Common Challenges",
 		keywords: [
-			"Why to learn javascript",
-			"Inzamam",
-			"InzamamVirk",
+			"AWS",
+			"script",
+			"aws lambda",
 			"Inzamam Virk",
 		],
-		link:'',
+		link:'https://inzamamvirk.hashnode.dev/package-your-aws-lambda',
 		style: `
 				.article-content {
 					display: flex;

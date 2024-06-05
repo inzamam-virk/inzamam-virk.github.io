@@ -25,9 +25,9 @@ const Experience = () => {
                 </div>
                 <div className="experience-details">
                     <p1>
-                        Build and scaled enterprise level applications using MERN Stack and Java based technologies. 
-                        Played a key role in ensuring code quality and finalizing design level requirements. Successfully implemented key features in 
-                        a musical company product and a real-estate portal, enhanced functionalities and streamlined deployment .
+                        Developed and scaled enterprise-level applications using Java technologies and MERN Stack. 
+                        Played a pivotal role in ensuring code quality and finalizing design requirements. Successfully implemented key features for 
+                        a music industry product and a real estate portal, enhancing functionalities and streamlining deployment processes.
                     </p1>
                 </div>
             </div>
