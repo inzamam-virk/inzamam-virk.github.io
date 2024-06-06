@@ -42,7 +42,7 @@ const Projects = () => {
 							Unlocking Practical Concepts
 						</div>
 						<div className="subtitle projects-subtitle">
-							Some interprise level projects I've been worked on.
+							Collection of my personal and Enterprise projects.
 						</div>
 
 						<div className="projects-list">

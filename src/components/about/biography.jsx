@@ -15,21 +15,19 @@ const Biography = () => {
 	return (
             <div className="biography">
                 <div className="summary">
-                    <div className="summary-title" style={{font: 'var(--primary-font)',  color: 'var(--primary-color)', fontWeight: 'bold' }} >
-                        <h2>Biography:</h2>
-                    </div>
+                    {/* <div className="summary-title" style={{font: 'var(--primary-font)',  color: 'var(--primary-color)', fontWeight: 'bold' }} >
+                        <h2>.</h2>
+                    </div> */}
                     <div className="summary-details" style={{font: 'var(--primary-font)',  color: 'var(--primary-color)' }}>
-                        <p>Hello, I'm Inzamam Virk, a Full Stack Engineer with proficiency in developing web applications and 
-                            backend systems. I am specialized in building and managing scalable, high performance applications 
-                            using java based technologies, JavaScript React.js, Node.js, and AWS technologies and writing clear, 
-                            concise code that is easy to maintain and troubleshoot. I am experienced in working with both small 
-                            and large teams across multiple projects.  I had opportunity to contribute in teams with different 
-                            technology stacks making their products usable for hundreds of thousands of users worldwide.
+                        <p>
+                            I'm Inzamam Virk, I started my career back in 2019 when I started my graduation in computer sciences.
+                            In my last semester, after passing through some internships I joined DHives as a software engineer where I worked in different 
+                            technology stacks starting from the MERN stack then I moved to another
+                            Java-based project on which I am working till date now. I am experienced in working with both small 
+                            and large teams across multiple projects. 
                         </p>
                         <p>
                             I believe in the power of design excellence and user-centered thinking in every project I undertake.
-                        </p>
-                        <p>
                             My commitment to innovation and problem-solving drives me to bring my clients' visions to life effectively 
                             and efficiently.
                         </p>

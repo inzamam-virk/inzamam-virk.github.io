@@ -52,7 +52,7 @@ const About = () => {
 						</div>
 					</div>
 
-					<div className="about-skills-title"  style={{marginTop:'7%'}}>
+					<div className="about-skills-title"  style={{marginTop:'5%'}}>
 						<h2>Skills</h2>
 					</div>
 
