@@ -55,6 +55,34 @@ function article_2() {
 	};
 }
 
+function article_3() {
+	return {
+		date: "07 May 2024",
+		title: "How to write an effective resume",
+		description:
+			"Sharing my personal experience and some valuable tips to write an effective resume.",
+		keywords: [
+			"Resume",
+			"recruiter",
+			"tips",
+			"Inzamam Virk",
+		],
+		link:'https://inzamamvirk.hashnode.dev/package-your-aws-lambda',
+		style: `
+				.article-content {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+				}
+
+				.randImage {
+					align-self: center;
+					outline: 2px solid red;
+				}
+				`
+	};
+}
+
 
 const myArticles = [article_1, article_2];
 

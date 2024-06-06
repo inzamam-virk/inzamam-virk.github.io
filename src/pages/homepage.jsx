@@ -43,8 +43,8 @@ const Homepage = () => {
 
 	const currentSEO = SEO.find((item) => item.page === "home");
 
-	const resume_link = "https://drive.google.com/file/d/1ZI9stunymJNOuCk5jFxG2NPyAm1W9C3V/view?usp=sharing";
-	const cover_letter_link = "https://drive.google.com/file/d/1jl7fjzY3Hcjz3rWzne_qCBnarc-d6lFd/view?usp=sharing";
+	const resume_link = "https://drive.google.com/file/d/1T0GxStEaDbFeY8boUxE9UFoETk4ebRA0/view?usp=sharing";
+	const cover_letter_link = "https://drive.google.com/file/d/1rj2S8ejRuXJCVJqpRjBybnEpBfNLcA1z/view?usp=sharing";
 
 
 	const logoStyle = {
@@ -86,14 +86,15 @@ const Homepage = () => {
 
 								<div className="subtitle homepage-subtitle">
 									<p>
-										Passionate Software Engineer with 1+ years of experience in developing web applications and backend systems. Skilled at writing clear, concise
-										code that is easy to maintain and troubleshoot. Experienced in working with both small and large teams across multiple projects. Able to work
-										independently in remote locations or in office environments as mandated by the company.
+										As a Full Stack Engineer with over one and half years of experience, I specialize in the conception, development, deployment,
+									and expansion of web applications. My core competency lies in crafting robust and efficient backend solutions using Java-
+									based technologies with microservices architecture. Additionally, I’ve worked with MERN Stack to engineer adaptable solutions 
+									and develop an enterprise-level real-estate portal.
 									</p>
 									<p>
-										Throughout the course of my professional career I had opportunity to contribute in teams with different technology stacks making their products
-										usable for hundreds of thousands of users worldwide. Looking forward to take my skills to the next level and contributing to the success of my
-										employer.
+										Throughout my professional career, I had the opportunity to contribute in teams with different technology stacks, making
+										valuable contributions to make their products successful. I am eager to contribute my wealth of expertise to assist your
+										organization in crafting and scaling solutions to drive its growth.
 									</p>
 								</div>
 							</div>

@@ -16,7 +16,7 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Software Engineer ",
+		title: "Full Stack Engineer ",
 		description:
 			"As a seasoned Full Stack Software Engineer, I excel in React.js, Node.js, and database management, I'm not just open to new tech stacks—I actively seek them out!, I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
 	},

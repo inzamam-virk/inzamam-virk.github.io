@@ -16,6 +16,7 @@
 
 
 .summary-details {
+    margin-top: 12%;
     text-align: justify;
     flex-grow: 1;
 }
