@@ -43,7 +43,7 @@ const Homepage = () => {
 
 	const currentSEO = SEO.find((item) => item.page === "home");
 
-	const resume_link = "https://drive.google.com/file/d/1T0GxStEaDbFeY8boUxE9UFoETk4ebRA0/view?usp=sharing";
+	const resume_link = "https://drive.google.com/file/d/1ZI9stunymJNOuCk5jFxG2NPyAm1W9C3V/view?usp=sharing";
 	const cover_letter_link = "https://drive.google.com/file/d/1rj2S8ejRuXJCVJqpRjBybnEpBfNLcA1z/view?usp=sharing";
 
 
@@ -86,7 +86,7 @@ const Homepage = () => {
 
 								<div className="subtitle homepage-subtitle">
 									<p>
-										As a Full Stack Engineer with over one and half years of experience, I specialize in the conception, development, deployment,
+										Full Stack Engineer with 2 years of experience, I specialize in the conception, development, deployment,
 									and expansion of web applications. My core competency lies in crafting robust and efficient backend solutions using Java-
 									based technologies with microservices architecture. Additionally, I’ve worked with MERN Stack to engineer adaptable solutions 
 									and develop an enterprise-level real-estate portal.
@@ -103,7 +103,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="Profile.jpg"
+											src="Profile-Current.png"
 											alt="about"
 											className="homepage-image"
 										/>
